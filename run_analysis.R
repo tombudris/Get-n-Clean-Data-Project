@@ -84,3 +84,5 @@ tidy_averages <- melt(recast_averages, id=1:2)
 # Write out the results back at the directory we started from
 setwd(top_dir)
 write.table(tidy_averages, "tidy_averages.txt", row.names=FALSE)
+
+
